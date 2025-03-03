@@ -11,7 +11,7 @@ This project automates the process of starting and stopping EC2 instances on AWS
 Ensure you have completed the following steps:
 
 1. **Create AWS Policy, Role, and Roles Anywhere Setup (Trust Anchor & Profile) and attach them all**
-2. **Download AWS Signing Helper (If file in repository doesnt work/old)**
+2. **Download AWS Signing Helper**
 3. **SmallStep CLI for Certificate & Keys Generation**
 4. **Python Script Execution & Packaging with PyInstaller**
 
