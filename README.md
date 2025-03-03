@@ -90,6 +90,11 @@ Ensure you have completed the following steps:
 ```bash
 aws_signing_helper credential-process --certificate ./{NAME_INPUT}-client.crt --private-key ./{NAME_INPUT}-client.key --profile-arn arn:aws:rolesanywhere:{REGION}:{ACCOUNT_ID}:profile/{PROFILE_ID} --role-arn arn:aws:iam::{ACCOUNT_ID}:role/ExternalStartStopEC2 --trust-anchor-arn arn:aws:rolesanywhere:{REGION}:{ACCOUNT_ID}:trust-anchor/{TRUST_ANCHOR_ID}
 ```
+**Output Example:**
+
+
+![RolesAnywhere](https://github.com/user-attachments/assets/a27534c4-fa64-4eb4-a993-a03716a36210)
+
 
 ## 3. Python Script Execution & Packaging with PyInstaller 🗃️
 
