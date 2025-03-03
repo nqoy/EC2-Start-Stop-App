@@ -107,7 +107,7 @@ After setting up the AWS roles and certificates, follow these steps to execute a
   
 3.    **Install Required Python Packages**
 
-   - Install the necessary Python packages listed in `requirements.txt` by running:
+   - Install the necessary Python packages listed in `requirements.txt` with installDependencies.py OR by running:
      ```bash
      pip install -r requirements.txt
      ```
