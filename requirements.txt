@@ -1,0 +1,4 @@
+boto3
+inquirer
+pyinstaller
+python-dotenv
